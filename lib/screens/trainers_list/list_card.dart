@@ -19,10 +19,10 @@ Widget listCard(Map<String, Object> trainer, BuildContext context) =>
               alignment: Alignment.center,
               child: Text('${trainer['name']} \n${trainer["age"]} years'),
             ),
-            Container(
-              alignment: Alignment.center,
-              child: Text(trainer['yoe']),
-            ),
+            // Container(
+            //   alignment: Alignment.center,
+            //   child: Text(trainer['yoe']),
+            // ),
           ],
         ),
       )),
